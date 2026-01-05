@@ -1,13 +1,13 @@
 {
 	"Targets": [
 		{
-			"Name": "KI07_Unreal_GAS",
-			"Path": "..\\Source\\KI07_Unreal_GAS.Target.cs",
+			"Name": "KI7_UnrealGAS",
+			"Path": "..\\Source\\KI7_UnrealGAS.Target.cs",
 			"Type": "Game"
 		},
 		{
-			"Name": "KI07_Unreal_GASEditor",
-			"Path": "..\\Source\\KI07_Unreal_GASEditor.Target.cs",
+			"Name": "KI7_UnrealGASEditor",
+			"Path": "..\\Source\\KI7_UnrealGASEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
