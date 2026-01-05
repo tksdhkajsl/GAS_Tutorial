@@ -57,6 +57,9 @@
     <ClCompile Include="..\..\Source\KI07_Unreal_GAS\Private\Interface\Resource.cpp">
       <Filter>Source\KI07_Unreal_GAS\Private\Interface</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\KI07_Unreal_GAS\Private\Interface\TwinResource.cpp">
+      <Filter>Source\KI07_Unreal_GAS\Private\Interface</Filter>
+    </ClCompile>
     <Filter Include="Source\KI07_Unreal_GAS\Private\UI">
       <UniqueIdentifier>{046874C3-3434-3182-8BC0-E3BA38C06B11}</UniqueIdentifier>
     </Filter>
@@ -85,6 +88,9 @@
       <UniqueIdentifier>{41839AC4-FF7F-33BB-A203-E025EFD92483}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\KI07_Unreal_GAS\Public\Interface\Resource.h">
+      <Filter>Source\KI07_Unreal_GAS\Public\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\KI07_Unreal_GAS\Public\Interface\TwinResource.h">
       <Filter>Source\KI07_Unreal_GAS\Public\Interface</Filter>
     </ClCompile>
     <Filter Include="Source\KI07_Unreal_GAS\Public\UI">

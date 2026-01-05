@@ -17,13 +17,13 @@ void EmptyLinkFunctionForGeneratedCodeKI07_Unreal_GAS_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xF15AEB36,
-				0x7C6F1256,
+				0xDAC099FF,
+				0x919B4A9E,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_KI07_Unreal_GAS.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_KI07_Unreal_GAS.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_KI07_Unreal_GAS(Z_Construct_UPackage__Script_KI07_Unreal_GAS, TEXT("/Script/KI07_Unreal_GAS"), Z_Registration_Info_UPackage__Script_KI07_Unreal_GAS, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xF15AEB36, 0x7C6F1256));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_KI07_Unreal_GAS(Z_Construct_UPackage__Script_KI07_Unreal_GAS, TEXT("/Script/KI07_Unreal_GAS"), Z_Registration_Info_UPackage__Script_KI07_Unreal_GAS, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xDAC099FF, 0x919B4A9E));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

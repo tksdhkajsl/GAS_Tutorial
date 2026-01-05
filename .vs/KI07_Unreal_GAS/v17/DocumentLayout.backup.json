@@ -1,0 +1,244 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D28AAC14-5978-3412-82D2-5865B8F49831}|Intermediate\\ProjectFiles\\KI07_Unreal_GAS.vcxproj|C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Public\\Interface\\TwinResource.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D28AAC14-5978-3412-82D2-5865B8F49831}|Intermediate\\ProjectFiles\\KI07_Unreal_GAS.vcxproj|solutionrelative:Source\\KI07_Unreal_GAS\\Public\\Interface\\TwinResource.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D28AAC14-5978-3412-82D2-5865B8F49831}|Intermediate\\ProjectFiles\\KI07_Unreal_GAS.vcxproj|C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Public\\Interface\\Resource.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D28AAC14-5978-3412-82D2-5865B8F49831}|Intermediate\\ProjectFiles\\KI07_Unreal_GAS.vcxproj|solutionrelative:Source\\KI07_Unreal_GAS\\Public\\Interface\\Resource.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D28AAC14-5978-3412-82D2-5865B8F49831}|Intermediate\\ProjectFiles\\KI07_Unreal_GAS.vcxproj|C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Private\\Interface\\Resource.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D28AAC14-5978-3412-82D2-5865B8F49831}|Intermediate\\ProjectFiles\\KI07_Unreal_GAS.vcxproj|solutionrelative:Source\\KI07_Unreal_GAS\\Private\\Interface\\Resource.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D28AAC14-5978-3412-82D2-5865B8F49831}|Intermediate\\ProjectFiles\\KI07_Unreal_GAS.vcxproj|C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Private\\UI\\BarWidget.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D28AAC14-5978-3412-82D2-5865B8F49831}|Intermediate\\ProjectFiles\\KI07_Unreal_GAS.vcxproj|solutionrelative:Source\\KI07_Unreal_GAS\\Private\\UI\\BarWidget.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D28AAC14-5978-3412-82D2-5865B8F49831}|Intermediate\\ProjectFiles\\KI07_Unreal_GAS.vcxproj|C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Public\\UI\\BarWidget.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D28AAC14-5978-3412-82D2-5865B8F49831}|Intermediate\\ProjectFiles\\KI07_Unreal_GAS.vcxproj|solutionrelative:Source\\KI07_Unreal_GAS\\Public\\UI\\BarWidget.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D28AAC14-5978-3412-82D2-5865B8F49831}|Intermediate\\ProjectFiles\\KI07_Unreal_GAS.vcxproj|C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Private\\GameAbility\\StatusAttributeSet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D28AAC14-5978-3412-82D2-5865B8F49831}|Intermediate\\ProjectFiles\\KI07_Unreal_GAS.vcxproj|solutionrelative:Source\\KI07_Unreal_GAS\\Private\\GameAbility\\StatusAttributeSet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D28AAC14-5978-3412-82D2-5865B8F49831}|Intermediate\\ProjectFiles\\KI07_Unreal_GAS.vcxproj|C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Public\\GameAbility\\StatusAttributeSet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D28AAC14-5978-3412-82D2-5865B8F49831}|Intermediate\\ProjectFiles\\KI07_Unreal_GAS.vcxproj|solutionrelative:Source\\KI07_Unreal_GAS\\Public\\GameAbility\\StatusAttributeSet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D28AAC14-5978-3412-82D2-5865B8F49831}|Intermediate\\ProjectFiles\\KI07_Unreal_GAS.vcxproj|C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Private\\Interface\\TwinResource.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D28AAC14-5978-3412-82D2-5865B8F49831}|Intermediate\\ProjectFiles\\KI07_Unreal_GAS.vcxproj|solutionrelative:Source\\KI07_Unreal_GAS\\Private\\Interface\\TwinResource.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D28AAC14-5978-3412-82D2-5865B8F49831}|Intermediate\\ProjectFiles\\KI07_Unreal_GAS.vcxproj|C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Private\\Character\\TestCharacter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D28AAC14-5978-3412-82D2-5865B8F49831}|Intermediate\\ProjectFiles\\KI07_Unreal_GAS.vcxproj|solutionrelative:Source\\KI07_Unreal_GAS\\Private\\Character\\TestCharacter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D28AAC14-5978-3412-82D2-5865B8F49831}|Intermediate\\ProjectFiles\\KI07_Unreal_GAS.vcxproj|C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Public\\Character\\TestCharacter.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D28AAC14-5978-3412-82D2-5865B8F49831}|Intermediate\\ProjectFiles\\KI07_Unreal_GAS.vcxproj|solutionrelative:Source\\KI07_Unreal_GAS\\Public\\Character\\TestCharacter.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D28AAC14-5978-3412-82D2-5865B8F49831}|Intermediate\\ProjectFiles\\KI07_Unreal_GAS.vcxproj|C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\KI07_Unreal_GAS.Build.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D28AAC14-5978-3412-82D2-5865B8F49831}|Intermediate\\ProjectFiles\\KI07_Unreal_GAS.vcxproj|solutionrelative:Source\\KI07_Unreal_GAS\\KI07_Unreal_GAS.Build.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D28AAC14-5978-3412-82D2-5865B8F49831}|Intermediate\\ProjectFiles\\KI07_Unreal_GAS.vcxproj|C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Public\\TestActor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D28AAC14-5978-3412-82D2-5865B8F49831}|Intermediate\\ProjectFiles\\KI07_Unreal_GAS.vcxproj|solutionrelative:Source\\KI07_Unreal_GAS\\Public\\TestActor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D28AAC14-5978-3412-82D2-5865B8F49831}|Intermediate\\ProjectFiles\\KI07_Unreal_GAS.vcxproj|C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Private\\TestActor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D28AAC14-5978-3412-82D2-5865B8F49831}|Intermediate\\ProjectFiles\\KI07_Unreal_GAS.vcxproj|solutionrelative:Source\\KI07_Unreal_GAS\\Private\\TestActor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TwinResource.cpp",
+              "DocumentMoniker": "C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Private\\Interface\\TwinResource.cpp",
+              "RelativeDocumentMoniker": "Source\\KI07_Unreal_GAS\\Private\\Interface\\TwinResource.cpp",
+              "ToolTip": "C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Private\\Interface\\TwinResource.cpp",
+              "RelativeToolTip": "Source\\KI07_Unreal_GAS\\Private\\Interface\\TwinResource.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-05T07:31:49.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TwinResource.h",
+              "DocumentMoniker": "C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Public\\Interface\\TwinResource.h",
+              "RelativeDocumentMoniker": "Source\\KI07_Unreal_GAS\\Public\\Interface\\TwinResource.h",
+              "ToolTip": "C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Public\\Interface\\TwinResource.h",
+              "RelativeToolTip": "Source\\KI07_Unreal_GAS\\Public\\Interface\\TwinResource.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-05T07:31:49.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Resource.cpp",
+              "DocumentMoniker": "C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Private\\Interface\\Resource.cpp",
+              "RelativeDocumentMoniker": "Source\\KI07_Unreal_GAS\\Private\\Interface\\Resource.cpp",
+              "ToolTip": "C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Private\\Interface\\Resource.cpp",
+              "RelativeToolTip": "Source\\KI07_Unreal_GAS\\Private\\Interface\\Resource.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-05T06:34:28.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Resource.h",
+              "DocumentMoniker": "C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Public\\Interface\\Resource.h",
+              "RelativeDocumentMoniker": "Source\\KI07_Unreal_GAS\\Public\\Interface\\Resource.h",
+              "ToolTip": "C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Public\\Interface\\Resource.h",
+              "RelativeToolTip": "Source\\KI07_Unreal_GAS\\Public\\Interface\\Resource.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-05T06:34:28.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BarWidget.cpp",
+              "DocumentMoniker": "C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Private\\UI\\BarWidget.cpp",
+              "RelativeDocumentMoniker": "Source\\KI07_Unreal_GAS\\Private\\UI\\BarWidget.cpp",
+              "ToolTip": "C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Private\\UI\\BarWidget.cpp",
+              "RelativeToolTip": "Source\\KI07_Unreal_GAS\\Private\\UI\\BarWidget.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-05T06:23:57.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BarWidget.h",
+              "DocumentMoniker": "C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Public\\UI\\BarWidget.h",
+              "RelativeDocumentMoniker": "Source\\KI07_Unreal_GAS\\Public\\UI\\BarWidget.h",
+              "ToolTip": "C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Public\\UI\\BarWidget.h",
+              "RelativeToolTip": "Source\\KI07_Unreal_GAS\\Public\\UI\\BarWidget.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-05T06:23:56.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StatusAttributeSet.cpp",
+              "DocumentMoniker": "C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Private\\GameAbility\\StatusAttributeSet.cpp",
+              "RelativeDocumentMoniker": "Source\\KI07_Unreal_GAS\\Private\\GameAbility\\StatusAttributeSet.cpp",
+              "ToolTip": "C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Private\\GameAbility\\StatusAttributeSet.cpp",
+              "RelativeToolTip": "Source\\KI07_Unreal_GAS\\Private\\GameAbility\\StatusAttributeSet.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-05T02:01:00.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StatusAttributeSet.h",
+              "DocumentMoniker": "C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Public\\GameAbility\\StatusAttributeSet.h",
+              "RelativeDocumentMoniker": "Source\\KI07_Unreal_GAS\\Public\\GameAbility\\StatusAttributeSet.h",
+              "ToolTip": "C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Public\\GameAbility\\StatusAttributeSet.h",
+              "RelativeToolTip": "Source\\KI07_Unreal_GAS\\Public\\GameAbility\\StatusAttributeSet.h",
+              "ViewState": "AgIAABYAAAAAAAAAAADwvy0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-05T02:01:00.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TestCharacter.cpp",
+              "DocumentMoniker": "C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Private\\Character\\TestCharacter.cpp",
+              "RelativeDocumentMoniker": "Source\\KI07_Unreal_GAS\\Private\\Character\\TestCharacter.cpp",
+              "ToolTip": "C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Private\\Character\\TestCharacter.cpp",
+              "RelativeToolTip": "Source\\KI07_Unreal_GAS\\Private\\Character\\TestCharacter.cpp",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwDIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-05T01:40:38.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TestCharacter.h",
+              "DocumentMoniker": "C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Public\\Character\\TestCharacter.h",
+              "RelativeDocumentMoniker": "Source\\KI07_Unreal_GAS\\Public\\Character\\TestCharacter.h",
+              "ToolTip": "C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Public\\Character\\TestCharacter.h",
+              "RelativeToolTip": "Source\\KI07_Unreal_GAS\\Public\\Character\\TestCharacter.h",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-05T01:40:38.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "KI07_Unreal_GAS.Build.cs",
+              "DocumentMoniker": "C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\KI07_Unreal_GAS.Build.cs",
+              "RelativeDocumentMoniker": "Source\\KI07_Unreal_GAS\\KI07_Unreal_GAS.Build.cs",
+              "ToolTip": "C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\KI07_Unreal_GAS.Build.cs",
+              "RelativeToolTip": "Source\\KI07_Unreal_GAS\\KI07_Unreal_GAS.Build.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwYAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T01:34:18.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TestActor.cpp",
+              "DocumentMoniker": "C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Private\\TestActor.cpp",
+              "RelativeDocumentMoniker": "Source\\KI07_Unreal_GAS\\Private\\TestActor.cpp",
+              "ToolTip": "C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Private\\TestActor.cpp",
+              "RelativeToolTip": "Source\\KI07_Unreal_GAS\\Private\\TestActor.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-05T01:29:13.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TestActor.h",
+              "DocumentMoniker": "C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Public\\TestActor.h",
+              "RelativeDocumentMoniker": "Source\\KI07_Unreal_GAS\\Public\\TestActor.h",
+              "ToolTip": "C:\\Users\\KGA\\Documents\\Unreal Projects\\GAS_Tutorial\\Source\\KI07_Unreal_GAS\\Public\\TestActor.h",
+              "RelativeToolTip": "Source\\KI07_Unreal_GAS\\Public\\TestActor.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-05T01:29:12.688Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -37,7 +37,9 @@
 /FUNCTIONPADMIN:6
 /NOIMPLIB
 "C:\Users\KGA\Documents\Unreal Projects\GAS_Tutorial\Intermediate\Build\Win64\x64\KI07_Unreal_GASEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"C:\Users\KGA\Documents\Unreal Projects\GAS_Tutorial\Intermediate\Build\Win64\x64\UnrealEditor\Development\KI07_Unreal_GAS\BarWidget.gen.cpp.obj"
 "C:\Users\KGA\Documents\Unreal Projects\GAS_Tutorial\Intermediate\Build\Win64\x64\UnrealEditor\Development\KI07_Unreal_GAS\KI07_Unreal_GAS.init.gen.cpp.obj"
+"C:\Users\KGA\Documents\Unreal Projects\GAS_Tutorial\Intermediate\Build\Win64\x64\UnrealEditor\Development\KI07_Unreal_GAS\Resource.gen.cpp.obj"
 "C:\Users\KGA\Documents\Unreal Projects\GAS_Tutorial\Intermediate\Build\Win64\x64\UnrealEditor\Development\KI07_Unreal_GAS\StatusAttributeSet.gen.cpp.obj"
 "C:\Users\KGA\Documents\Unreal Projects\GAS_Tutorial\Intermediate\Build\Win64\x64\UnrealEditor\Development\KI07_Unreal_GAS\TestActor.gen.cpp.obj"
 "C:\Users\KGA\Documents\Unreal Projects\GAS_Tutorial\Intermediate\Build\Win64\x64\UnrealEditor\Development\KI07_Unreal_GAS\TestCharacter.gen.cpp.obj"
@@ -46,6 +48,8 @@
 "C:\Users\KGA\Documents\Unreal Projects\GAS_Tutorial\Intermediate\Build\Win64\x64\UnrealEditor\Development\KI07_Unreal_GAS\TestCharacter.cpp.obj"
 "C:\Users\KGA\Documents\Unreal Projects\GAS_Tutorial\Intermediate\Build\Win64\x64\UnrealEditor\Development\KI07_Unreal_GAS\StatusAttributeSet.cpp.obj"
 "C:\Users\KGA\Documents\Unreal Projects\GAS_Tutorial\Intermediate\Build\Win64\x64\UnrealEditor\Development\KI07_Unreal_GAS\PerModuleInline.gen.cpp.obj"
+"C:\Users\KGA\Documents\Unreal Projects\GAS_Tutorial\Intermediate\Build\Win64\x64\UnrealEditor\Development\KI07_Unreal_GAS\Resource.cpp.obj"
+"C:\Users\KGA\Documents\Unreal Projects\GAS_Tutorial\Intermediate\Build\Win64\x64\UnrealEditor\Development\KI07_Unreal_GAS\BarWidget.cpp.obj"
 "C:\Users\KGA\Documents\Unreal Projects\GAS_Tutorial\Intermediate\Build\Win64\x64\UnrealEditor\Development\KI07_Unreal_GAS\Default.rc2.res"
 "..\Plugins\Runtime\GameplayAbilities\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameplayAbilities\UnrealEditor-GameplayAbilities.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameplayTags\UnrealEditor-GameplayTags.lib"
