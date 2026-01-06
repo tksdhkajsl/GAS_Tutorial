@@ -4,6 +4,7 @@
 #include "Character/TestCharacter.h"
 #include "AbilitySystemComponent.h"
 #include "GameAbilitySystem/StatusAttributeSet.h"
+#include "GameAbilitySystem/StatAttributeSet.h"
 #include "Components/WidgetComponent.h"
 #include "Interface/TwinResource.h"
 
@@ -19,7 +20,8 @@ ATestCharacter::ATestCharacter()
 	AbilitySystemComponent = CreateDefaultSubobject<UAbilitySystemComponent>(TEXT("AbilitySystemComponent"));
 
 	// 어트리뷰트 셋 생성
-	StatusAttributeSet = CreateDefaultSubobject<UStatusAttributeSet>(TEXT("Status"));
+	StatusAttributeSet = CreateDefaultSubobject<UStatusAttributeSet>(TEXT("Resource"));
+	StatAttributeSet = CreateDefaultSubobject<UStatAttributeSet>(TEXT("Status"));
 }
 
 void ATestCharacter::TestHealthChange(float Amount)
@@ -33,15 +35,43 @@ void ATestCharacter::TestHealthChange(float Amount)
 
 void ATestCharacter::TestSetByCaller(float Amount)
 {
-	if (AbilitySystemComponent)
+	if (TestInfiniteEffectClass && AbilitySystemComponent)
 	{
 		FGameplayEffectContextHandle EffectContext = AbilitySystemComponent->MakeEffectContext();
-		FGameplayEffectSpecHandle SpecHandle = AbilitySystemComponent->MakeOutgoingSpec(TestEffectClass, 0, EffectContext);
+		EffectContext.AddInstigator(this, this);
+
+		FGameplayEffectSpecHandle SpecHandle = AbilitySystemComponent->MakeOutgoingSpec(
+			TestInfiniteEffectClass, 0, EffectContext);
+
 		if (SpecHandle.IsValid())
 		{
-			SpecHandle.Data->SetSetByCallerMagnitude(Tag_EffectDamage, Amount);
-			AbilitySystemComponent->ApplyGameplayEffectSpecToSelf(*SpecHandle.Data.Get());
+			TestInfinite = AbilitySystemComponent->ApplyGameplayEffectSpecToSelf(*SpecHandle.Data.Get());
 		}
+	}
+}
+
+void ATestCharacter::TestAddInfiniteEffect()
+{
+	if (TestInfiniteEffectClass && AbilitySystemComponent)
+	{
+		FGameplayEffectContextHandle EffectContext = AbilitySystemComponent->MakeEffectContext();
+		EffectContext.AddInstigator(this, this);
+
+		FGameplayEffectSpecHandle SpecHandle = AbilitySystemComponent->MakeOutgoingSpec(TestInfiniteEffectClass, 0, EffectContext);
+
+		if (SpecHandle.IsValid()) //SpecHandle이 활성화되면 마나드레인 실행
+		{
+			TestInfinite = AbilitySystemComponent->ApplyGameplayEffectSpecToSelf(*SpecHandle.Data.Get());
+		}
+
+	}
+}
+
+void ATestCharacter::TestRemoveInfiniteEffect()
+{
+	if (TestInfinite.IsValid())//TestInfinite이 활성화되면 마나드레인 중지
+	{
+		AbilitySystemComponent->RemoveActiveGameplayEffect(TestInfinite);
 	}
 }
 

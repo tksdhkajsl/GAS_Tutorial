@@ -9,6 +9,7 @@
 #include "TestCharacter.generated.h"
 
 class UStatusAttributeSet;
+class UStatAttributeSet;
 class UWidgetComponent;
 
 UCLASS()
@@ -30,6 +31,12 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void TestSetByCaller(float Amount);
 
+	UFUNCTION(BlueprintCallable)
+	void TestAddInfiniteEffect();
+
+	UFUNCTION(BlueprintCallable)
+	void TestRemoveInfiniteEffect();
+
 protected:
 	virtual void BeginPlay() override;
 	virtual void Tick(float DeltaTime) override;
@@ -48,16 +55,24 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Test")
 	TSubclassOf<class UGameplayEffect> TestEffectClass = nullptr;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Test")
+	TSubclassOf<class UGameplayEffect> TestInfiniteEffectClass = nullptr;
+
 protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Ability")
 	TObjectPtr<UAbilitySystemComponent> AbilitySystemComponent = nullptr;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Component")
 	TObjectPtr<UWidgetComponent> BarWigetComponent = nullptr;
-	
+
 private:
 	UPROPERTY()
 	TObjectPtr<UStatusAttributeSet> StatusAttributeSet = nullptr;
 
+	UPROPERTY()
+	TObjectPtr<UStatAttributeSet> StatAttributeSet = nullptr;
+
 	FGameplayTag Tag_EffectDamage;
+
+	FActiveGameplayEffectHandle TestInfinite;
 };
