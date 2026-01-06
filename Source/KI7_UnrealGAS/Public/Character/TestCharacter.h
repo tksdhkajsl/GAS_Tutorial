@@ -27,6 +27,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void TestHealthChange(float Amount);
 
+	UFUNCTION(BlueprintCallable)
+	void TestSetByCaller(float Amount);
+
 protected:
 	virtual void BeginPlay() override;
 	virtual void Tick(float DeltaTime) override;
@@ -34,11 +37,16 @@ protected:
 
 private:
 	void OnHealthChange(const FOnAttributeChangeData& InData);
+	void OnMaxHealthChange(const FOnAttributeChangeData& InData);
 	void OnManaChange(const FOnAttributeChangeData& InData);
+	void OnMaxManaChange(const FOnAttributeChangeData& InData);
 
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Test")
 	float TestValue = 10.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Test")
+	TSubclassOf<class UGameplayEffect> TestEffectClass = nullptr;
 
 protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Ability")
@@ -50,4 +58,6 @@ protected:
 private:
 	UPROPERTY()
 	TObjectPtr<UStatusAttributeSet> StatusAttributeSet = nullptr;
+
+	FGameplayTag Tag_EffectDamage;
 };
