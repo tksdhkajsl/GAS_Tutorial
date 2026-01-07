@@ -8,8 +8,8 @@
 #include "GameplayEffectTypes.h"
 #include "TestCharacter.generated.h"
 
+class UResourceAttributeSet;
 class UStatusAttributeSet;
-class UStatAttributeSet;
 class UWidgetComponent;
 
 UCLASS()
@@ -58,19 +58,22 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Test")
 	TSubclassOf<class UGameplayEffect> TestInfiniteEffectClass = nullptr;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Initialize")
+	TSubclassOf<class UGameplayEffect> InitializeEffectClass = nullptr;
+
 protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Ability")
 	TObjectPtr<UAbilitySystemComponent> AbilitySystemComponent = nullptr;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Component")
 	TObjectPtr<UWidgetComponent> BarWigetComponent = nullptr;
-
+	
 private:
 	UPROPERTY()
-	TObjectPtr<UStatusAttributeSet> StatusAttributeSet = nullptr;
+	TObjectPtr<UResourceAttributeSet> ResourceAttributeSet = nullptr;
 
 	UPROPERTY()
-	TObjectPtr<UStatAttributeSet> StatAttributeSet = nullptr;
+	TObjectPtr<UStatusAttributeSet> StatusAttributeSet = nullptr;
 
 	FGameplayTag Tag_EffectDamage;
 

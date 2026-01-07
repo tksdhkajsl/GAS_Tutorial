@@ -4,41 +4,38 @@
 
 #include "CoreMinimal.h"
 #include "AttributeSet.h"
-#include "GameAbilitySystemMacros.h"
 #include "AbilitySystemComponent.h"
+#include "GameAbilitySystem/GameAbilitySystemMacros.h"
 #include "StatusAttributeSet.generated.h"
 
 /**
  * 
  */
-
-
 UCLASS()
 class KI7_UNREALGAS_API UStatusAttributeSet : public UAttributeSet
 {
 	GENERATED_BODY()
-	
+
 public:
 	UStatusAttributeSet();
 
 	virtual void PreAttributeChange(const FGameplayAttribute& Attribute, float& NewValue) override;
-
-	// Instant타입의 이팩트가 적용된 직후에만 호출(Duration이나 Intinite는 실행안됨)
-	virtual void PostGameplayEffectExecute(const struct FGameplayEffectModCallbackData& Data) override;
+	virtual void PostAttributeChange(const FGameplayAttribute& Attribute, float OldValue, float NewValue) override;
 
 	UPROPERTY(BlueprintReadOnly, Category = "Attribute")
-	FGameplayAttributeData Health;
-	ATTRIBUTE_ACCESSORS(UStatusAttributeSet, Health)
+	FGameplayAttributeData AttackPower;
+	ATTRIBUTE_ACCESSORS(UStatusAttributeSet, AttackPower)
+
+	// 0.0 ~ 1.0 사이
+	UPROPERTY(BlueprintReadOnly, Category = "Attribute")
+	FGameplayAttributeData CriticalRate;
+	ATTRIBUTE_ACCESSORS(UStatusAttributeSet, CriticalRate)
 
 	UPROPERTY(BlueprintReadOnly, Category = "Attribute")
-	FGameplayAttributeData MaxHealth;
-	ATTRIBUTE_ACCESSORS(UStatusAttributeSet, MaxHealth)
-
+	FGameplayAttributeData MoveSpeed;
+	ATTRIBUTE_ACCESSORS(UStatusAttributeSet, MoveSpeed)
+			
 	UPROPERTY(BlueprintReadOnly, Category = "Attribute")
-	FGameplayAttributeData Mana;
-	ATTRIBUTE_ACCESSORS(UStatusAttributeSet, Mana)
-
-	UPROPERTY(BlueprintReadOnly, Category = "Attribute")
-	FGameplayAttributeData MaxMana;
-	ATTRIBUTE_ACCESSORS(UStatusAttributeSet, MaxMana)
+	FGameplayAttributeData JumpPower;
+	ATTRIBUTE_ACCESSORS(UStatusAttributeSet, JumpPower)
 };
