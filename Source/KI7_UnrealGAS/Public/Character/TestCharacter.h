@@ -25,21 +25,6 @@ public:
 		return AbilitySystemComponent;
 	};
 
-	UFUNCTION(BlueprintCallable)
-	void TestHealthChange(float Amount);
-
-	UFUNCTION(BlueprintCallable)
-	void TestSetByCaller(float Amount);
-
-	UFUNCTION(BlueprintCallable)
-	void TestAddInfiniteEffect();
-
-	UFUNCTION(BlueprintCallable)
-	void TestRemoveInfiniteEffect();
-
-	UFUNCTION(BlueprintCallable)
-	void TestAbility();
-
 protected:
 	virtual void BeginPlay() override;
 	virtual void Tick(float DeltaTime) override;
@@ -57,6 +42,25 @@ private:
 	void OnAbility3Release();
 
 public:
+	UFUNCTION(BlueprintCallable)
+	void TestHealthChange(float Amount);
+
+	UFUNCTION(BlueprintCallable)
+	void TestSetByCaller(float Amount);
+
+	UFUNCTION(BlueprintCallable)
+	void TestAddInfiniteEffect();
+
+	UFUNCTION(BlueprintCallable)
+	void TestRemoveInfiniteEffect();
+
+	UFUNCTION(BlueprintCallable)
+	void TestAbility();
+
+	UFUNCTION(BlueprintCallable)
+	void TestLineTrace();
+
+public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Test")
 	float TestValue = 10.0f;
 
@@ -65,6 +69,9 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Test")
 	TSubclassOf<class UGameplayEffect> TestInfiniteEffectClass = nullptr;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Test")
+	TSubclassOf<class UGameplayEffect> TestHitEffectClass = nullptr;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Initialize")
 	TSubclassOf<class UGameplayEffect> InitializeEffectClass = nullptr;
@@ -76,7 +83,7 @@ public:
 	TSubclassOf<UGameplayAbility> SuperJumpClass = nullptr;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Ability")
-	TSubclassOf<UGameplayAbility> ChargingClass = nullptr;
+	TSubclassOf<UGameplayAbility> ChargingJumpClass = nullptr;
 
 protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Ability")
@@ -87,12 +94,13 @@ protected:
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Input")
 	TObjectPtr<class UInputAction> IA_Ability1 = nullptr;
-	
+
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Input")
 	TObjectPtr<class UInputAction> IA_Ability2 = nullptr;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Input")
 	TObjectPtr<class UInputAction> IA_Ability3 = nullptr;
+	
 private:
 	UPROPERTY()
 	TObjectPtr<UResourceAttributeSet> ResourceAttributeSet = nullptr;

@@ -17,7 +17,7 @@ public:
 	AGCNA_Test();
 	virtual bool OnActive_Implementation(AActor* MyTarget, const FGameplayCueParameters& Parameters) override;
 	virtual bool OnRemove_Implementation(AActor* MyTarget, const FGameplayCueParameters& Parameters) override;
-
+	
 protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "VFX")
 	TObjectPtr<class UNiagaraSystem> TestVFX = nullptr;

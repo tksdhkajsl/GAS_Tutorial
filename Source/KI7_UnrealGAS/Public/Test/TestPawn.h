@@ -8,14 +8,13 @@
 #include "TestPawn.generated.h"
 
 UCLASS()
-class KI7_UNREALGAS_API ATestPawn : public APawn
+class KI7_UNREALGAS_API ATestPawn : public APawn, public IAbilitySystemInterface
 {
 	GENERATED_BODY()
 
 public:
 	// Sets default values for this pawn's properties
 	ATestPawn();
-
 	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const {
 		return AbilitySystemComponent;
 	};

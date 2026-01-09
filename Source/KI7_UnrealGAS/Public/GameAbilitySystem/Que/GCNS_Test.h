@@ -13,7 +13,7 @@ UCLASS()
 class KI7_UNREALGAS_API UGCNS_Test : public UGameplayCueNotify_Static
 {
 	GENERATED_BODY()
-
+	
 public:
 	UGCNS_Test();
 	virtual bool OnExecute_Implementation(AActor* MyTarget, const FGameplayCueParameters& Parameters) const override;

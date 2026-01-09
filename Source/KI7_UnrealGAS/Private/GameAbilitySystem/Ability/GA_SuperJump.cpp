@@ -23,10 +23,11 @@ void UGA_SuperJump::ActivateAbility(const FGameplayAbilitySpecHandle Handle, con
 		EndAbility(Handle, ActorInfo, ActivationInfo, true, true);	// 어빌리티를 사용하는 것이 캐릭터가 아니면 실패
 		return;
 	}
-	FVector Direction(1, 0, 1);
-	Direction.Normalize(); //앞쪽 위 45도 방향
-	Direction = Character->GetActorRotation().RotateVector(Direction);
-	Character->LaunchCharacter(Direction * JumpPower, false, false); //캐릭터 날리기
 
-	EndAbility(Handle, ActorInfo, ActivationInfo, true, false); //어빌리티 종료
+	FVector Direction(1, 0, 1);
+	Direction.Normalize();	// 앞쪽 위 45도 방향	
+	Direction = Character->GetActorRotation().RotateVector(Direction);
+	Character->LaunchCharacter(Direction * JumpPower, false, false);// 캐릭터 날리기
+
+	EndAbility(Handle, ActorInfo, ActivationInfo, true, false);		// 어빌리티 종료
 }

@@ -20,8 +20,8 @@ public:
 		const FGameplayAbilityActorInfo* ActorInfo,
 		const FGameplayAbilityActivationInfo ActivationInfo,
 		const FGameplayEventData* TriggerEventData) override;
-
+	
 public:
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Ability/SuperJump")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Ability|SuperJump")
 	float JumpPower = 1000.0f;
 };
